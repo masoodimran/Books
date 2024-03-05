@@ -20,6 +20,26 @@ To set up the project environment, follow these steps:
     - `.\.venv\Scripts\activate`
     - `uv pip install -r .\requirements.in -r .\requirements-test.in`
 
+### uv installation steps
+
+mac os and linux
+`curl -LsSf https://astral.sh/uv/install.sh | sh`
+
+On Windows
+`powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
+
+With pip
+`pip install uv`
+
+With pipx
+`pipx install uv`
+
+With Homebrew
+`brew install uv`
+
+With Pacman
+`pacman -S uv`
+
 ## Running the Application
 
 To run the application, execute the following command in the project root directory:
